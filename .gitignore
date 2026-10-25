@@ -1,0 +1,20 @@
+# Node
+node_modules/
+build/
+npm-debug.log*
+
+# Secrets - never commit
+.env
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+crash.log
+tfplan
+
+# OS
+.DS_Store
