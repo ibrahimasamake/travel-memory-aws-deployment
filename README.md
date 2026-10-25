@@ -5,7 +5,7 @@ Student: **Ibrahima Samake** · Programme: PPMCAD – Multi Cloud Architecture &
 
 | | |
 |---|---|
-| **Live application** | https://travelmemory.samibrahima.tech |
+| **Demo** | Was live at `travelmemory.samibrahima.tech`; taken down after grading to stop AWS charges. Proof: [PDF report](docs/TravelMemory-Deployment-Documentation.pdf), [diagram](docs/TravelMemory-Architecture.png), [30 screenshots](docs/screenshots). Redeploy with [`terraform apply`](#10-how-to-reproduce). |
 | **AWS region** | ap-south-1 (Asia Pacific – Mumbai) |
 | **Stack** | MongoDB Atlas · Express / Node.js · React · Nginx · pm2 |
 | **AWS services** | EC2, AMI, Launch Templates, Auto Scaling, Application Load Balancer (public + internal), VPC, NAT Gateway, ACM |
@@ -353,7 +353,7 @@ A CNAME is required because an ALB has no fixed IP address; only its DNS name is
 ### 7.6 Final result
 
 ![custom domain](docs/screenshots/30-app-on-custom-domain.png)
-*Travel Memory served at **https://travelmemory.samibrahima.tech***
+*Travel Memory served at **https://travelmemory.samibrahima.tech** (screenshot taken while the deployment was live)*
 
 ---
 
